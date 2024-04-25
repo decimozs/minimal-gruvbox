@@ -62,6 +62,12 @@ keymap.set("n", "<leader>wh", "<C-w>s", { desc = "Split window horizontally" }) 
 keymap.set("n", "<leader>we", "<C-w>=", { desc = "Make splits equal size" }) -- make split windows equal width & height
 keymap.set("n", "<leader>wx", "<cmd>close<CR>", { desc = "Close current split" }) -- close current split window
 
+-- navigating window
+keymap.set("n", "1", "<C-W>l", { desc = "move to the window on the right" })
+keymap.set("n", "2", "<C-W>h", { desc = "move to the window on the left" })
+keymap.set("n", "3", "<C-W>k", { desc = "move to the window on the top" })
+keymap.set("n", "4", "<C-W>j", { desc = "move to the window on the below" })
+
 -- debugger
 keymap.set("n", "<leader>db", "<cmd>DapToggleBreakpoint<cr>")
 keymap.set("n", "<leader>dr", "<cmd>DapContinue<cr>")

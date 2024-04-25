@@ -15,6 +15,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	{ import = "dez.core.colorscheme" },
 	{ import = "dez.plugins" },
-	{ import = "dez.lsp" },
 	{ import = "dez.debugger" },
+	{ import = "dez.lsp" },
 })
