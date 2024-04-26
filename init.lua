@@ -10,7 +10,7 @@ local green = "#8ec07c"
 local blue = "#458588"
 local yellow = "#d79921"
 local red = "#cc241d"
-local black = "#3c3836"
+local black = "#232323"
 
 vim.api.nvim_set_hl(0, "TelescopePromptBorder", {
 	fg = black,
